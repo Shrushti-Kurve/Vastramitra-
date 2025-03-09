@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    background-color:whitesmoke;
+}
+#main{
+    width: 100%;
+    height: 100%;  
+}
+#header{
+    width: 100%;
+    height: 10%;   
+    background-color:transparent;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    height: 70%;
+    background-color:rgb(243, 21, 21);
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.texts{
+    color: rgb(255, 255, 255);
+    margin: 60px;
+    font-style:inherit;
+    font-size:large ;
+    display: flex;
+}
+.texts:hover{
+    background-color: rgb(24, 179, 231);
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    padding-right: 20%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: gray}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+#page1{
+    width: 100%;
+    height: 100%;  
+    background-color: wheat;
+    background-image: url(https://wallpaperaccess.com/full/1437673.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://img.freepik.com/premium-photo/silk-red-cloth-background-stripe-wave-line-dark-black-gradient-fabric-fashion-wallpaper-display_926199-883855.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:whitesmoke;
+    padding: 10%;
+}
+#page4{
+    padding: 20px;
+    background-image: url(https://img.freepik.com/premium-photo/silk-red-cloth-background-stripe-wave-line-dark-black-gradient-fabric-fashion-wallpaper-display_926199-883855.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#page5{
+    padding: 20px;
+    background-image: url(https://img.freepik.com/premium-photo/silk-red-cloth-background-stripe-wave-line-dark-black-gradient-fabric-fashion-wallpaper-display_926199-883855.jpg);
+    background-color:white;
+    
+}
+
+.about-section, .services-section, .contact-section {
+    background-image: url(https://img.freepik.com/premium-photo/abstract-red-white-gradient-background_1271337-2403.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    padding: 4%;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+}
+
+h2 {
+    color:red;
+    margin-top: 20px;
+}
+
+.overview, .target-audience, .features-list, .usp-list, .contact-info {
+    color: #555;
+    font-size: 1.1em;
+}
+
+.features-list, .usp-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.image-container, .social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature-image, .service-image, .social-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.feature-image:hover, .service-image:hover, .social-image:hover {
+    transform: scale(1.1);
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+#page3{
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+    background-image: url(https://img.freepik.com/premium-photo/silk-red-cloth-background-stripe-wave-line-dark-black-gradient-fabric-fashion-wallpaper-display_926199-883855.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: whitesmoke;
+    color: #dcdcdc; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box1{
+    padding-top: 2%;
+    margin-left: 25%;
+    width: 50%;
+    height: 30%;
+    background-color:transparent;
+    font-style: normal;
+    color: whitesmoke;
+}
+#box2{
+    padding-top:2%;
+    margin-left: 35%;
+    height: 40%;
+    width: 30%;
+    background-color:transparent;
+    font-style: normal;
+    color: black;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+.texts2{
+    color:rgb(50, 46, 46);;
+    margin: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.texts2:hover{
+    background-color:rgba(128, 128, 128, 0.743);
+}
+#pageA{
+    width: 100%;
+    height: 100%;  
+    background-color:black;
+    color: black;
+    padding-top: 2%;
+}
+
+
+
